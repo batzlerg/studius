@@ -1,0 +1,10 @@
+extends layout
+block mainContent
+    script(type="text/template" id="index-template")
+        p <%= data %>
+    div(id="content")
+
+    script(src="lib/jquery-min.js")
+    script(src="lib/underscore-min.js")
+    script(src="lib/backbone-min.js")
+    script(src="js/views/indexView.js")
